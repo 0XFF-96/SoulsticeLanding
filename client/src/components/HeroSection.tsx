@@ -23,14 +23,14 @@ export function HeroSection() {
             transition={{ duration: 0.8 }}
             className="text-center lg:text-left space-y-8"
           >
-            <div className="space-y-4">
+            <div className="space-y-4 md:space-y-6">
               <h1 
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-[70px]"
                 style={{
                   fontFamily: 'Nunito Sans',
                   fontWeight: 600,
                   fontStyle: 'normal',
-                  fontSize: '70px',
-                  lineHeight: '70px',
+                  lineHeight: '1',
                   letterSpacing: '0%',
                   color: '#FFFFFF'
                 }}
@@ -38,10 +38,14 @@ export function HeroSection() {
                 Spiritual clarity for modern living
               </h1>
               <p 
-                className="text-lg md:text-xl max-w-2xl mx-auto lg:mx-0"
+                className="max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg md:text-xl lg:text-[20px]"
                 style={{
-                  color: '#FFFFFF',
-                  fontFamily: 'Nunito Sans'
+                  fontFamily: 'Nunito Sans',
+                  fontWeight: 400,
+                  fontStyle: 'normal',
+                  lineHeight: '1.4',
+                  letterSpacing: '0%',
+                  color: '#FFFFFF'
                 }}
               >
                 Soulstice blends ancient wisdom with modern technology to provide clarity and guidance. By uniting AI insights and tailored rituals, it helps you reconnect with your energy, make mindful choices, and bring more balance and purpose into your daily life.

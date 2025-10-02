@@ -29,9 +29,11 @@ export default function Landing() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-soulstice-primary to-soulstice-accent flex items-center justify-center">
-                <Sun className="text-white text-lg" />
-              </div>
+              <img 
+                src="/assets/slogo.svg" 
+                alt="Soulstice Logo" 
+                className="w-8 h-8"
+              />
               <span className="text-2xl font-heading font-bold gradient-text">soulstice</span>
             </div>
             
@@ -81,8 +83,17 @@ export default function Landing() {
       </nav>
 
       {/* Hero Section */}
-      <Section className="relative overflow-hidden">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <section 
+        className="py-16 md:py-24 relative overflow-hidden"
+        style={{
+          backgroundImage: 'url(/assets/background.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -100,7 +111,7 @@ export default function Landing() {
             </div>
 
             <WaitlistForm />
-
+{/* 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button 
                 className="btn-secondary flex items-center gap-2"
@@ -109,7 +120,7 @@ export default function Landing() {
                 <Play className="w-4 h-4" />
                 See Features
               </Button>
-            </div>
+            </div> */}
           </motion.div>
 
           {/* Right Content - Phone Mockups */}
@@ -168,10 +179,11 @@ export default function Landing() {
           </motion.div>
         </div>
 
-        {/* Decorative Elements */}
-        <div className="absolute top-20 left-10 w-64 h-64 bg-soulstice-primary/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-soulstice-accent/5 rounded-full blur-3xl"></div>
-      </Section>
+          {/* Decorative Elements */}
+          <div className="absolute top-20 left-10 w-64 h-64 bg-soulstice-primary/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-20 right-10 w-96 h-96 bg-soulstice-accent/5 rounded-full blur-3xl"></div>
+        </div>
+      </section>
 
       {/* Why Choose Soulstice Section */}
       <Section id="features" variant="light">
@@ -549,9 +561,11 @@ export default function Landing() {
             {/* Left Side */}
             <div className="space-y-6">
               <div className="flex items-center space-x-2">
-                <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-soulstice-primary to-soulstice-accent flex items-center justify-center">
-                  <Sun className="text-white text-xl" />
-                </div>
+                <img 
+                  src="/assets/slogo.svg" 
+                  alt="Soulstice Logo" 
+                  className="w-10 h-10"
+                />
                 <span className="text-2xl font-heading font-bold gradient-text">soulstice</span>
               </div>
               <div className="space-y-2">

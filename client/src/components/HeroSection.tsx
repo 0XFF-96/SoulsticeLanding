@@ -24,10 +24,26 @@ export function HeroSection() {
             className="text-center lg:text-left space-y-8"
           >
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight text-soulstice-foreground">
-                Spiritual clarity for <span className="gradient-text">modern living</span>
+              <h1 
+                style={{
+                  fontFamily: 'Nunito Sans',
+                  fontWeight: 600,
+                  fontStyle: 'normal',
+                  fontSize: '70px',
+                  lineHeight: '70px',
+                  letterSpacing: '0%',
+                  color: '#FFFFFF'
+                }}
+              >
+                Spiritual clarity for modern living
               </h1>
-              <p className="text-lg md:text-xl text-soulstice-muted-foreground max-w-2xl mx-auto lg:mx-0">
+              <p 
+                className="text-lg md:text-xl max-w-2xl mx-auto lg:mx-0"
+                style={{
+                  color: '#FFFFFF',
+                  fontFamily: 'Nunito Sans'
+                }}
+              >
                 Soulstice blends ancient wisdom with modern technology to provide clarity and guidance. By uniting AI insights and tailored rituals, it helps you reconnect with your energy, make mindful choices, and bring more balance and purpose into your daily life.
               </p>
             </div>

@@ -105,7 +105,7 @@ export function WaitlistForm() {
           disabled={isSubmitting}
           className="whitespace-nowrap disabled:opacity-50 px-8 py-3 font-semibold text-white transition-all hover:shadow-lg h-full rounded-full border-0"
           style={{
-            backgroundColor: '#C4A568',
+            background: 'linear-gradient(to right, #E1C16E, #BC9B62)',
             minWidth: '160px'
           }}
           data-testid="button-join-waitlist"
@@ -167,7 +167,7 @@ export function WaitlistForm() {
           disabled={isSubmitting}
           className="whitespace-nowrap disabled:opacity-50 px-8 py-3 font-semibold text-white transition-all hover:shadow-lg h-full rounded-full border-0 w-full"
           style={{
-            backgroundColor: '#C4A568',
+            background: 'linear-gradient(to right, #E1C16E, #BC9B62)',
             minHeight: '48px'
           }}
           data-testid="button-join-waitlist-mobile"

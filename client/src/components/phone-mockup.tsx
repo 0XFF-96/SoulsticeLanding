@@ -14,7 +14,15 @@ export function PhoneMockup({ children, className, size = "md" }: PhoneMockupPro
   };
 
   return (
-    <div className={cn("phone-mockup", sizeClasses[size], className)}>
+    <div 
+      className={cn("phone-mockup", sizeClasses[size], className)}
+      style={{
+        backgroundImage: 'url(/assets/7_Meditation.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       <div className="phone-notch" />
       <div className="absolute inset-0 flex flex-col p-6">
         {children}
@@ -36,6 +44,14 @@ export function GradientOrb({ className, size = "md" }: GradientOrbProps) {
   };
 
   return (
-    <div className={cn("gradient-orb", sizeClasses[size], className)} />
+    <div 
+      className={cn("gradient-orb rounded-full relative z-10", sizeClasses[size], className)}
+      style={{
+        backgroundImage: 'url(/assets/orb.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    />
   );
 }

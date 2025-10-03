@@ -103,11 +103,11 @@ export function HeroSection() {
             <div className="relative">
               {/* Main Phone */}
               <PhoneMockup size="md" className="relative z-10">
-                <div className="text-white text-sm mb-4 opacity-90">Rebalancing Meditation</div>
-                <GradientOrb className="mb-6 mx-auto" />
+                {/* <div className="text-white text-sm mb-4 opacity-90">Rebalancing Meditation</div>
+                <GradientOrb className="mb-6 mx-auto" /> */}
                 
                 {/* Waveform visualization */}
-                <div className="flex items-end justify-center space-x-1 mb-4">
+                {/* <div className="flex items-end justify-center space-x-1 mb-4">
                   {[8, 12, 6, 16, 10, 14, 8, 12, 6].map((height, i) => (
                     <div
                       key={i}
@@ -115,12 +115,12 @@ export function HeroSection() {
                       style={{ height: `${height * 4}px`, animationDelay: `${i * 0.1}s` }}
                     />
                   ))}
-                </div>
+                </div> */}
                 
-                <div className="text-white text-xs mb-4 opacity-75 text-center">0:08 / 5:23</div>
+                {/* <div className="text-white text-xs mb-4 opacity-75 text-center">0:08 / 5:23</div>
                 <button className="w-12 h-12 rounded-full bg-soulstice-primary flex items-center justify-center mx-auto">
                   <Play className="text-white w-5 h-5 ml-1" />
-                </button>
+                </button> */}
               </PhoneMockup>
 
               {/* Secondary Phone (Right) */}

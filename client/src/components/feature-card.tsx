@@ -25,34 +25,45 @@ export function FeatureCard({
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
       className={cn(
-        "feature-card bg-white rounded-2xl p-8 shadow-lg",
-        highlighted && "border-4 border-soulstice-primary/30",
+        "feature-card rounded-3xl p-4 border border-gray-100/50 transition-all duration-300 h-full",
+        highlighted && "ring-2 ring-[#E1C16E]/30",
         className
       )}
+      style={{
+        fontFamily: 'Nunito Sans',
+        backgroundColor: '#EDEEEB'
+      }}
     >
-      {imageUrl && (
-        <div className="relative mb-6">
-          <img 
-            src={imageUrl} 
-            alt={title}
-            className="rounded-xl w-full h-64 object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-soulstice-primary/20 to-transparent rounded-xl" />
-        </div>
-      )}
+      {/* Phone Mockup Section */}
+      <div className="flex justify-center mb-4">
+        <img 
+          src="/assets/phone.svg" 
+          alt="Phone mockup" 
+          className="w-46 h-auto"
+        />
+      </div>
       
-      {icon && (
-        <div className="mb-6">
-          {icon}
-        </div>
-      )}
-      
-      <h3 className="text-xl font-heading font-bold mb-3 text-soulstice-foreground">
-        {title}
-      </h3>
-      <p className="text-soulstice-muted-foreground">
-        {description}
-      </p>
+      {/* Text Content */}
+      <div className="text-center">
+        <h3 
+          className="text-xl font-bold mb-2 leading-tight"
+          style={{
+            fontFamily: 'Nunito Sans',
+            color: '#111111'
+          }}
+        >
+          {title}
+        </h3>
+        <p 
+          className="leading-relaxed text-sm"
+          style={{
+            fontFamily: 'Nunito Sans',
+            color: '#111111'
+          }}
+        >
+          {description}
+        </p>
+      </div>
     </motion.div>
   );
 }

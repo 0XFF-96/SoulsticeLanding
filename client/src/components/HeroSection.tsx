@@ -60,8 +60,8 @@ export function HeroSection() {
         </div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -71,27 +71,17 @@ export function HeroSection() {
           >
             <div className="space-y-4 md:space-y-6">
               <h1 
-                className="text-4xl sm:text-5xl md:text-6xl lg:text-[70px]"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight text-white"
                 style={{
-                  fontFamily: 'Nunito Sans',
-                  fontWeight: 600,
-                  fontStyle: 'normal',
-                  lineHeight: '1',
-                  letterSpacing: '0%',
-                  color: '#FFFFFF'
+                  fontFamily: 'Nunito Sans'
                 }}
               >
                 Spiritual clarity for modern living
               </h1>
               <p 
-                className="max-w-2xl mx-auto lg:mx-0 text-base sm:text-lg md:text-xl lg:text-[20px]"
+                className="max-w-2xl mx-auto lg:mx-0 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-normal leading-relaxed text-white/90"
                 style={{
-                  fontFamily: 'Nunito Sans',
-                  fontWeight: 400,
-                  fontStyle: 'normal',
-                  lineHeight: '1.4',
-                  letterSpacing: '0%',
-                  color: '#FFFFFF'
+                  fontFamily: 'Nunito Sans'
                 }}
               >
                 Soulstice blends ancient wisdom with modern technology to provide clarity and guidance. By uniting AI insights and tailored rituals, it helps you reconnect with your energy, make mindful choices, and bring more balance and purpose into your daily life.
@@ -109,7 +99,7 @@ export function HeroSection() {
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="relative flex items-center justify-center lg:justify-end"
+            className="relative flex items-center justify-center "
           >
             <div className="relative">
               {/* Main Phone */}
@@ -160,9 +150,7 @@ export function HeroSection() {
           </motion.div>
         </div>
 
-        {/* Decorative Elements */}
-        <div className="absolute top-20 left-10 w-64 h-64 bg-soulstice-primary/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-10 w-96 h-96 bg-soulstice-accent/5 rounded-full blur-3xl"></div>
+
       </div>
     </section>
   );

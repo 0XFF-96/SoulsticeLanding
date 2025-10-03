@@ -4,15 +4,22 @@ import { FeatureCard } from "@/components/feature-card";
 
 export function FeaturesSection() {
   return (
-    <Section id="features" variant="light">
+    <Section 
+      id="features" 
+      variant="light"
+      className="!bg-[#FCFCFC]"
+    >
       <motion.h2
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-center mb-16 text-soulstice-foreground"
+        className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-16 text-soulstice-foreground"
+        style={{
+          fontFamily: 'Nunito Sans'
+        }}
       >
-        Why choose <span className="gradient-text">Soulstice</span>?
+        Why choose Soulstice ?
       </motion.h2>
 
       <div className="grid md:grid-cols-3 gap-8 lg:gap-12">

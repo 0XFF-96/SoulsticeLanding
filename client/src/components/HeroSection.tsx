@@ -67,11 +67,11 @@ export function HeroSection() {
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-center lg:text-left space-y-8"
+            className="text-left space-y-8"
           >
             <div className="space-y-4 md:space-y-6">
               <h1 
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-semibold leading-tight text-white"
+                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-white"
                 style={{
                   fontFamily: 'Nunito Sans'
                 }}
@@ -79,7 +79,7 @@ export function HeroSection() {
                 Spiritual clarity for modern living
               </h1>
               <p 
-                className="max-w-2xl mx-auto lg:mx-0 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-normal leading-relaxed text-white/90"
+                className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal leading-relaxed text-white/90"
                 style={{
                   fontFamily: 'Nunito Sans'
                 }}
@@ -88,7 +88,7 @@ export function HeroSection() {
               </p>
             </div>
 
-            <div className="mt-12">
+            <div className="mt-8 sm:mt-12 md:mt-16 lg:mt-20">
             <WaitlistForm />
             </div>
 

@@ -125,7 +125,7 @@
 
   body {
     @apply font-sans antialiased;
-    background: linear-gradient(180deg, var(--soulstice-bg) 0%, var(--soulstice-bg-secondary) 100%);
+    background: #FCFCFC;
     color: var(--soulstice-foreground);
     line-height: 1.6;
     min-height: 100vh;

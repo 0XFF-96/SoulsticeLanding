@@ -25,7 +25,7 @@ export function FeatureCard({
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
       className={cn(
-        "feature-card rounded-3xl p-4 shadow-lg border border-gray-100/50 hover:shadow-xl transition-all duration-300 h-full",
+        "feature-card rounded-3xl p-4 border border-gray-100/50 transition-all duration-300 h-full",
         highlighted && "ring-2 ring-[#E1C16E]/30",
         className
       )}

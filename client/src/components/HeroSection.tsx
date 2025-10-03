@@ -6,7 +6,7 @@ import { Play, Check, Facebook, Instagram, Linkedin } from "lucide-react";
 export function HeroSection() {
   return (
     <section 
-      className="py-16 md:py-24 relative overflow-hidden"
+      className="py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 relative overflow-hidden"
       style={{
         backgroundImage: 'url(/assets/background.png)',
         backgroundSize: 'cover',
@@ -17,7 +17,7 @@ export function HeroSection() {
       {/* Top Navigation */}
       <div className="absolute top-0 left-0 right-0 z-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-20">
+          <div className="flex items-center justify-between h-16 sm:h-18 md:h-20">
             <div className="flex items-center space-x-2">
               <img 
                 src="/assets/slogo.svg" 
@@ -71,7 +71,7 @@ export function HeroSection() {
           >
             <div className="space-y-4 md:space-y-6">
               <h1 
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight text-white"
+                className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-normal sm:leading-tight text-white mt-12 mb-4"
                 style={{
                   fontFamily: 'Nunito Sans'
                 }}
@@ -79,7 +79,7 @@ export function HeroSection() {
                 Spiritual clarity for modern living
               </h1>
               <p 
-                className="text-base sm:text-lg md:text-xl lg:text-2xl font-normal leading-relaxed text-white/90"
+                className="text-sm sm:text-base md:text-lg lg:text-xl font-normal leading-relaxed text-white/90 mb-10"
                 style={{
                   fontFamily: 'Nunito Sans'
                 }}

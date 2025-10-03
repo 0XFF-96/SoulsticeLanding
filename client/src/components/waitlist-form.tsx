@@ -52,7 +52,7 @@ export function WaitlistForm() {
   return (
     <form 
       onSubmit={handleSubmit} 
-      className="max-w-3xl mx-auto lg:mx-0"
+      className="max-w-3xl mx-auto lg:mx-0 pt-4"
       data-testid="waitlist-form"
     >
       {/* Desktop: Integrated pill-shaped container */}

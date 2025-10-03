@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { PhoneMockup, GradientOrb } from "@/components/phone-mockup";
 import { WaitlistForm } from "@/components/waitlist-form";
-import { Play, Check } from "lucide-react";
+import { Play, Check, Facebook, Instagram, Linkedin } from "lucide-react";
 
 export function HeroSection() {
   return (
@@ -14,7 +14,53 @@ export function HeroSection() {
         backgroundRepeat: 'no-repeat'
       }}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      {/* Top Navigation */}
+      <div className="absolute top-0 left-0 right-0 z-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-20">
+            <div className="flex items-center space-x-2">
+              <img 
+                src="/assets/slogo.svg" 
+                alt="Soulstice Logo" 
+                className="w-8 h-8"
+              />
+              <span className="text-2xl font-heading font-bold text-white">soulstice</span>
+            </div>
+            
+            <div className="flex items-center space-x-4">
+              <a 
+                href="https://facebook.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                data-testid="link-facebook"
+              >
+                <Facebook className="text-xl" />
+              </a>
+              <a 
+                href="https://instagram.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                data-testid="link-instagram"
+              >
+                <Instagram className="text-xl" />
+              </a>
+              <a 
+                href="https://linkedin.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-white/80 hover:text-white transition-colors"
+                data-testid="link-linkedin"
+              >
+                <Linkedin className="text-xl" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left Content */}
           <motion.div
@@ -52,7 +98,10 @@ export function HeroSection() {
               </p>
             </div>
 
+            <div className="mt-12">
             <WaitlistForm />
+            </div>
+
           </motion.div>
 
           {/* Right Content - Phone Mockups */}

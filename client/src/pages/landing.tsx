@@ -8,7 +8,7 @@ import { Footer } from "@/components/Footer";
 export default function Landing() {
   return (
     <div className="min-h-screen">
-      <Navigation />
+      {/* <Navigation /> */}
       <HeroSection />
       <FeaturesSection />
       <HowItWorksSection />

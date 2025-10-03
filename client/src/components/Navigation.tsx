@@ -2,7 +2,15 @@ import { Facebook, Instagram, Linkedin } from "lucide-react";
 
 export function Navigation() {
   return (
-    <nav className="bg-soulstice-bg/80 backdrop-blur-md border-b border-soulstice-border sticky top-0 z-50">
+    <nav 
+      className="backdrop-blur-md border-b border-soulstice-border sticky top-0 z-50"
+      style={{
+        backgroundImage: 'url(/assets/background.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">

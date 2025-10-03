@@ -36,11 +36,11 @@ export function ElaborationFeaturesSection() {
               <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-[#E1C16E] to-[#BC9B62] flex items-center justify-center">
                 <FileText className="text-white text-xl" />
               </div>
-              <h3 className="text-2xl font-heading font-bold text-soulstice-foreground">
+              <h3 className="text-2xl font-heading font-bold" style={{ color: '#111111' }}>
                 Smart Energy Guide
               </h3>
             </div>
-            <p className="text-soulstice-muted-foreground text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed" style={{ color: '#111111' }}>
               Receive gentle, personalised insights drawn from your energy and daily rhythms. Simple check-ins help you cut through noise and make choices that feel aligned with your higher self.
             </p>
           </div>
@@ -58,7 +58,7 @@ export function ElaborationFeaturesSection() {
                 </div>
                 
                 {/* App Content */}
-                <div className="px-3 pb-3">
+                <div className="px-3 pb-3" style={{ backgroundColor: '#F8F8F8' }}>
                   <h4 className="text-sm font-semibold text-gray-800 text-center mb-4">Emotional Pulse</h4>
                   
                   {/* Golden Orb */}
@@ -124,7 +124,7 @@ export function ElaborationFeaturesSection() {
                   </div>
                   
                   {/* App Content */}
-                  <div className="px-3 pb-3">
+                  <div className="px-3 pb-3" style={{ backgroundColor: '#F8F8F8' }}>
                     <div className="flex items-center mb-4">
                       <span className="text-xs text-gray-600">← Back to home</span>
                     </div>
@@ -164,11 +164,11 @@ export function ElaborationFeaturesSection() {
               <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-[#E1C16E] to-[#BC9B62] flex items-center justify-center">
                 <Wifi className="text-white text-xl" />
               </div>
-              <h3 className="text-2xl font-heading font-bold text-soulstice-foreground">
+              <h3 className="text-2xl font-heading font-bold" style={{ color: '#111111' }}>
                 Wearable Integration
               </h3>
             </div>
-            <p className="text-soulstice-muted-foreground text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed" style={{ color: '#111111' }}>
               Turn real-time signals from devices like Apple Watch or Oura into clear, actionable insights. Soulstice translates your body's data into guidance you can trust in the moment.
             </p>
           </div>
@@ -187,11 +187,11 @@ export function ElaborationFeaturesSection() {
               <div className="w-12 h-12 rounded-lg bg-gradient-to-r from-[#E1C16E] to-[#BC9B62] flex items-center justify-center">
                 <List className="text-white text-xl" />
               </div>
-              <h3 className="text-2xl font-heading font-bold text-soulstice-foreground">
+              <h3 className="text-2xl font-heading font-bold" style={{ color: '#111111' }}>
                 Custom Ritual Library
               </h3>
             </div>
-            <p className="text-soulstice-muted-foreground text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed" style={{ color: '#111111' }}>
               Choose from quick resets or deeper practices such as tailored meditations, affirmations, and manifestations designed around your unique energy needs.
             </p>
           </div>
@@ -210,7 +210,7 @@ export function ElaborationFeaturesSection() {
                 </div>
                 
                 {/* App Content */}
-                <div className="px-3 pb-3">
+                <div className="px-3 pb-3" style={{ backgroundColor: '#F8F8F8' }}>
                   <h4 className="text-sm font-semibold text-gray-800 text-center mb-3">Library</h4>
                   
                   <div className="mb-3">
@@ -268,7 +268,7 @@ export function ElaborationFeaturesSection() {
                 </div>
                 
                 {/* App Content */}
-                <div className="px-3 pb-3">
+                <div className="px-3 pb-3" style={{ backgroundColor: '#F8F8F8' }}>
                   <div className="text-center mb-4">
                     <p className="text-xs text-gray-600">10 Sep 2025</p>
                     <p className="text-sm font-semibold text-gray-800">Good morning, Sarah</p>

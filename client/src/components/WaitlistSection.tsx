@@ -12,10 +12,10 @@ export function WaitlistSection() {
         transition={{ duration: 0.6 }}
         className="text-center mb-12"
       >
-        <h2 className="text-2xl md:text-3xl font-heading font-bold mb-3 text-soulstice-foreground">
+        <h2 className="text-2xl md:text-3xl font-heading font-bold mb-3" style={{ color: '#111111' }}>
           Step into Soulstice and be the first to experience it.
         </h2>
-        <p className="text-lg font-heading font-bold text-soulstice-foreground">Join the waitlist today.</p>
+        <p className="text-lg font-heading font-bold" style={{ color: '#111111' }}>Join the waitlist today.</p>
       </motion.div>
 
       <div className="grid md:grid-cols-3 gap-6 mb-16">
@@ -51,8 +51,8 @@ export function WaitlistSection() {
             <div className={`w-12 h-12 rounded-full ${card.iconBg} flex items-center justify-center mb-4`}>
               {card.icon}
             </div>
-            <h3 className="text-xl font-heading font-bold mb-3 text-soulstice-foreground">{card.title}</h3>
-            <p className="text-soulstice-muted-foreground">{card.description}</p>
+            <h3 className="text-xl font-heading font-bold mb-3" style={{ color: '#111111' }}>{card.title}</h3>
+            <p style={{ color: '#111111' }}>{card.description}</p>
           </motion.div>
         ))}
       </div>

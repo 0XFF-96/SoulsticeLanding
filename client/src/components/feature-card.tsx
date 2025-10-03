@@ -46,17 +46,19 @@ export function FeatureCard({
       {/* Text Content */}
       <div className="text-center">
         <h3 
-          className="text-xl font-bold mb-2 text-gray-800 leading-tight"
+          className="text-xl font-bold mb-2 leading-tight"
           style={{
-            fontFamily: 'Nunito Sans'
+            fontFamily: 'Nunito Sans',
+            color: '#111111'
           }}
         >
           {title}
         </h3>
         <p 
-          className="text-gray-600 leading-relaxed text-sm"
+          className="leading-relaxed text-sm"
           style={{
-            fontFamily: 'Nunito Sans'
+            fontFamily: 'Nunito Sans',
+            color: '#111111'
           }}
         >
           {description}

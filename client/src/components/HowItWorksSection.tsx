@@ -9,7 +9,8 @@ export function HowItWorksSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.6 }}
-        className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-center mb-16 text-soulstice-foreground"
+        className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-center mb-16"
+        style={{ color: '#111111' }}
       >
         How it works 
       </motion.h2>
@@ -46,12 +47,12 @@ export function HowItWorksSection() {
               </div>
               
               {/* Title */}
-              <h3 className="text-xl font-heading font-bold mb-3 text-soulstice-foreground">
+              <h3 className="text-xl font-heading font-bold mb-3" style={{ color: '#111111' }}>
                 {item.title}
               </h3>
               
               {/* Description */}
-              <p className="text-soulstice-muted-foreground text-sm leading-relaxed">
+              <p className="text-sm leading-relaxed" style={{ color: '#111111' }}>
                 {item.description}
               </p>
 

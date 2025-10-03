@@ -52,12 +52,12 @@ export function WaitlistForm() {
   return (
     <form 
       onSubmit={handleSubmit} 
-      className="max-w-3xl mx-auto lg:mx-0 pt-4 lg:px-8 xl:px-12 lg:mt-16"
+      className="max-w-3xl mx-auto lg:mx-0 pt-4 lg:mt-16"
       data-testid="waitlist-form"
     >
       {/* Desktop: Integrated pill-shaped container */}
       <div 
-        className="hidden lg:flex lg:items-stretch lg:gap-0 w-full"
+        className="hidden lg:flex lg:justify-start lg:items-stretch lg:gap-0 w-full"
         style={{
           backgroundColor: 'white',
           borderRadius: '60px',
@@ -103,7 +103,7 @@ export function WaitlistForm() {
         <Button
           type="submit"
           disabled={isSubmitting}
-          className="whitespace-nowrap disabled:opacity-50 px-8 py-3 font-semibold text-white transition-all hover:shadow-lg h-full rounded-full border-0"
+          className="whitespace-nowrap disabled:opacity-50 py-3 font-semibold text-white transition-all hover:shadow-lg h-full rounded-full border-0"
           style={{
             background: 'linear-gradient(to right, #E1C16E, #BC9B62)',
             minWidth: '160px'
@@ -165,7 +165,7 @@ export function WaitlistForm() {
         <Button
           type="submit"
           disabled={isSubmitting}
-          className="whitespace-nowrap disabled:opacity-50 px-8 py-3 font-semibold text-white transition-all hover:shadow-lg h-full rounded-full border-0 w-full"
+          className="whitespace-nowrap disabled:opacity-50 py-3 font-semibold text-white transition-all hover:shadow-lg h-full rounded-full border-0 w-full"
           style={{
             background: 'linear-gradient(to right, #E1C16E, #BC9B62)',
             minHeight: '48px'

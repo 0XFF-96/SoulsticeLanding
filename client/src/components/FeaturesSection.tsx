@@ -26,6 +26,7 @@ export function FeaturesSection() {
         <FeatureCard
           title="Know your soul from the start"
           description="Soulstice learns about you through quick, intuitive questions about your background, values, and goals. It then reflects back a clear snapshot of your energy and purpose, so you start with instant clarity."
+          imageUrl="/assets/work1.png"
         />
         
         <FeatureCard
@@ -36,6 +37,7 @@ export function FeaturesSection() {
         <FeatureCard
           title="Guidance that adapts to you"
           description="Whether you need a quick reset or a deeper ritual, Soulstice delivers practices aligned with your energetic path."
+          imageUrl="/assets/work3.png"
         />
       </div>
     </Section>

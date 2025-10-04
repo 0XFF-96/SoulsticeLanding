@@ -37,7 +37,7 @@ export function FeatureCard({
       {/* Phone Mockup Section */}
       <div className="flex justify-center mb-4">
         <img 
-          src="/assets/phone.svg" 
+          src={imageUrl || "/assets/phone.svg"} 
           alt="Phone mockup" 
           className="w-46 h-auto"
         />

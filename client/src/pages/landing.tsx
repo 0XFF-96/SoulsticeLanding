@@ -5,6 +5,7 @@ import { HowItWorksSection } from "@/components/HowItWorksSection";
 import { ElaborationFeaturesSection } from "@/components/ElaborationFeaturesSection";
 import { WaitlistSection } from "@/components/WaitlistSection";
 import { Footer } from "@/components/Footer";
+import { ZapierChatbot } from "@/components/ZapierChatbot";
 
 export default function Landing() {
   return (
@@ -16,6 +17,9 @@ export default function Landing() {
       <ElaborationFeaturesSection />
       <WaitlistSection />
       <Footer />
+      
+      {/* Zapier Chatbot */}
+      <ZapierChatbot />
     </div>
   );
 }
